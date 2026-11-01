@@ -14,7 +14,7 @@ Most "I built an agent" repos stop at the demo. The part that actually determine
 
 This repo documents both halves: the technical build, and the project management discipline that would sit around it in a real healthcare delivery - Project Charter, RAID Log, RACI Matrix, Quality Gate Scorecard, and UAT Checklist, all in [`/docs`](./docs).
 
-> **Attribution:** Built by working through K21Academy's *"Building an End-to-End Healthcare AI Assistant with Microsoft Foundry"* lab (guide by Atul Kumar / K21Academy). All patient, appointment, and policy data is synthetic. The technical build follows the lab; the governance layer, documentation, and delivery framing are my own work as I develop as an AI Project Manager.
+> **Attribution:** Built from a guided healthcare AI lab exercise. All patient, appointment, and policy data is synthetic. The technical build follows the lab structure; the governance layer, documentation, and delivery framing are my own work as I develop as an AI Project Manager.
 
 ---
 
@@ -179,7 +179,7 @@ carecompanion-healthcare-ai-assistant/
     └── UAT_CHECKLIST.md
 ```
 
-*(Lab source code - `lab01_chat.py` through `lab07_mcp.py`, `hospital_tools.py` - follows K21Academy's CareCompanion starter structure and is available on request; this repo focuses on the delivery and governance artifacts.)*
+*(Lab source code - `lab01_chat.py` through `lab07_mcp.py`, `hospital_tools.py` - follows the starter structure used in the guided lab; this repo focuses on the delivery and governance work rather than the raw starter files.*
 
 ---
 
@@ -188,3 +188,4 @@ carecompanion-healthcare-ai-assistant/
 Built by **Jaswant Singh** - AI Project Manager (PMP), transitioning from operations and delivery leadership into AI Project Management / AI Implementation PM roles.
 
 [LinkedIn](https://www.linkedin.com/in/jaswant-singh-pmp/) · [GitHub](https://github.com/JaswantOnGit)
+

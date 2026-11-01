@@ -18,7 +18,7 @@ RAID = Risks, Assumptions, Issues, Dependencies. Reviewed against actual build b
 
 | # | Assumption | Validation approach |
 |---|---|---|
-| A1 | All patient, appointment, and discharge data used in this build is synthetic | Confirmed - sourced entirely from the K21Academy lab's sample dataset |
+| A1 | All patient, appointment, and discharge data used in this build is synthetic | Confirmed - sourced entirely from the lab's sample dataset |
 | A2 | A production deployment would sit behind hospital IT's identity and network controls (not represented in this lab) | Would require Azure AD / network policy review in a real engagement |
 | A3 | Hospital policy documents indexed for RAG are the authoritative, current version | In production, would require a document-freshness process (not built here) |
 
@@ -35,4 +35,4 @@ RAID = Risks, Assumptions, Issues, Dependencies. Reviewed against actual build b
 | D1 | Microsoft Foundry project + GPT-5-mini / text-embedding-3-large deployment | Platform | Complete |
 | D2 | Azure AI Content Understanding service availability | Platform | Complete |
 | D3 | Microsoft Learn MCP server uptime | External (Microsoft) | Complete at time of build |
-| D4 | Sample hospital data (patients, appointments, policies, discharge note) | K21Academy lab dataset | Complete |
+| D4 | Sample hospital data (patients, appointments, policies, discharge note) | Lab sample dataset | Complete |
